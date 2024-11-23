@@ -1,6 +1,7 @@
 {
     "name": "template-python",
-    "dockerComposeFile": ["docker-compose.yml"],
-    "service": "app",
-    "workspaceFolder": "/workspace"
+    "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye"
+    //"dockerComposeFile": ["docker-compose.yml"],
+    //"service": "app",
+    //#"workspaceFolder": "/workspace"
 }
